@@ -1,4 +1,10 @@
+
+
 /*  - - -  NAV - - - */
+body{
+    background: #e1ebe4;
+}
+
 .logo{
     width: 35px;
     height: 30 px;
@@ -9,16 +15,24 @@
     padding: 0 10px;
 }
 
+.bg-fofofo{
+    background: #a0e548;
+    
+}
+
+
 /* - - - Footer - - - */
 footer{
+    border-top: solid #0f0f0f 1px;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 10px 20px 10px;
+    padding: 30px 10px 20px 10px;
     justify-content:space-between ;
     position: inherit;
     margin-bottom: 0;
 }
+
 
 .redes{
     display: flex;
@@ -45,14 +59,14 @@ footer{
 
 
 .titulo-consultacar h1{
-    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: bold;
+
     text-align: center; 
-    text-shadow: -10px 10px 10px #F0F0F0 ; 
+    text-shadow: -10px 10px 10px #e6dfdf ; 
 }
 
 .titulo-consultacar h2 {
     text-align: center;
-    background: #F0F0F0;
 }
 
 .alinear{
@@ -64,11 +78,14 @@ footer{
     margin-bottom: 5%;
 }
 
+.dropdown-toggle::after {
+    display:none;
+}
+
 .boton{
-    color:black;
-    background-color: #F0F0F0;
-    border: 2px solid #4741d7;
-    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #9ac1f0; 
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
@@ -82,23 +99,10 @@ footer{
 }
 
 .boton:hover {
-        color: #fff; 
+        color: #f0f0f0; 
+        border-radius: 2px solid black;
 }
 
-.boton::after {
-    content: "";
-    background: #4741d7; 
-    position: absolute;
-    z-index: -1;
-    padding: 16px 20px;
-    display: block;
-    left: 0;
-    right: 0;
-    top: -100%;
-    bottom: 100%;
-    -webkit-transition: all 0.35s;
-    transition: all 0.35s;
-  }
   .boton::after {
     left: 0;
     right: 0;
@@ -108,6 +112,4 @@ footer{
     transition: all 0.35s;
   }
 
-    body {
-    background-image: url(/img/asphalt-line-texture.jpg);
-  }
+    
